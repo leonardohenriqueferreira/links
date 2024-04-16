@@ -5,9 +5,22 @@ Links é um agregador de links responsivo, com troca de tema, que pode ser utili
 </p>
 
 <p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>
 </p>
+
+<p align="center">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/leonardohenriqueferreira/links">
+</p>
+
+<p align="center">
+  <img alt="projeto DevLinks" src=".github/preview.gif" width="100%">
+</p>
+
+## 💻 Projeto
+
+Você pode visualizar o projeto através [desse link](https://leonardohenriqueferreira.github.io/links/).
 
 ## 🚀 Tecnologias
 
