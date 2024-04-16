@@ -16,6 +16,16 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
+.light {
+  --text-color: black;
+  --bg-url: url(./assets/bg-desktop-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
+}
+
 /* Page */
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -43,6 +53,7 @@ body * {
 #profile img {
   width: 112px;
   border-radius: 50%;
+  border: 2px solid var(--stroke-color);
 }
 
 #profile p {
@@ -56,6 +67,7 @@ body * {
   position: relative;
   width: 64px;
   margin: 4px auto;
+  cursor: pointer;
 }
 
 #switch button {
@@ -71,6 +83,10 @@ body * {
   transform: translateY(-50%);
   animation: slide-back 0.2s;
   cursor: pointer;
+}
+
+.light #switch button {
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover {
@@ -148,4 +164,23 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* Animation */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
