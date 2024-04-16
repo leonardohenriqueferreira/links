@@ -44,6 +44,17 @@ body * {
   padding: 0 24px;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #424242;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9e9e9e;
+  border-radius: 20px;
+}
+
 /* Profile */
 #profile {
   text-align: center;
