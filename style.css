@@ -1,9 +1,11 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Variables */
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-desktop.jpg);
@@ -14,6 +16,7 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
+/* Page */
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
@@ -31,6 +34,7 @@ body * {
   padding: 0 24px;
 }
 
+/* Profile */
 #profile {
   text-align: center;
   padding: 24px;
@@ -47,6 +51,7 @@ body * {
   margin-top: 8px;
 }
 
+/* Switch */
 #switch {
   position: relative;
   width: 64px;
@@ -83,6 +88,7 @@ body * {
   border-radius: 9999px;
 }
 
+/* Links */
 ul {
   list-style: none;
   padding: 24px 0;
@@ -116,6 +122,7 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
+/* Social */
 #social-links {
   display: flex;
   justify-content: center;
@@ -136,6 +143,7 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+/* Footer */
 footer {
   padding: 24px 0;
   text-align: center;
